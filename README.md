@@ -20,12 +20,12 @@ The introduction of GAN-generated data consistently improved the recall for the 
 
 | Model Variant | Accuracy | Disgust Precision | Disgust Recall | Disgust F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
-| Baseline | ~70% | 0.75 | 0.30 | 0.32 |
-| Vanilla GAN Augment | ~90% | 0.78 | 0.41 | 0.54 |
-| **DCGAN Augment (Best)** | **~91%** | **0.88** | **0.41** | **0.56** |
+| Baseline | ~69% | 0.73 | 0.22 | 0.33 |
+| Vanilla GAN Augment | ~80% | 0.73 | 0.32 | 0.45 |
+| **DCGAN Augment (Best)** | **~85%** | **0.80** | **0.39** | **0.52** |
 
 ### Key Observation:
-While Vanilla GANs provided a good baseline, **DCGAN** produced higher quality spatial features, leading to a significant jump in Recall (0.88), proving that even slightly blurry synthetic images help the model generalize better to rare classes.
+While Vanilla GANs provided a good baseline, **DCGAN** produced higher quality spatial features, leading to a significant jump in Recall (0.80), proving that even slightly blurry synthetic images help the model generalize better to rare classes.
 
 
 
